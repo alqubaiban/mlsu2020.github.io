@@ -91,6 +91,13 @@ We demonstrate the classification results on a sample of validation images. Alth
 
 <div style="display: flex; flex-direction: row; justify-content: space-evenly; width: 100%;"><img src="images/image_examples2.png" width="100%"></div>
 
+
+
+## Attempts on Other Classifiers
+
+We have implemented a simple decicion tree classifer to train the generated clustered maps along woth labels (right, left, and straight). Since each pixel is considered a feature, the decision tree was not able to perfom. In fact, it was only able to classify 37-40% depending on how many features were selected as the minimum number to split a leaf. We do not recommend using decesion tree in image classification.
+
+
 ## Conclusion
 
 ## References.
